@@ -1,0 +1,130 @@
+@import '../../assets/css/variables.scss';
+section.page-section {
+  background-color: $color-gray-light;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  @media screen and (max-width: $md - 1) {
+    padding-top: 40px;
+    padding-bottom: 40px;  
+  }
+  .h2-head-sec {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+  .h3-head-sec {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin-bottom: 1.5625rem;
+  }
+  .brdr {
+    width: 60px;
+    height: 3px;
+    background-color: $us-Pink-Glamour;
+    border-radius: 50px;
+    margin-top: 0;
+  }
+  .sec-para {
+    font-size: 15px;
+    line-height: 24px;
+    color: $color-gray-dark;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    @media screen and (max-width: $md - 1) {
+      text-align: justify;
+    }
+  }
+  .base-cards .card-group {
+    padding-top: 80px;
+    & + .card-group {
+      padding-top: 40px;
+    }
+    @media screen and (max-width: $md - 1) {
+      padding-top: 40px;
+      & + .card-group {
+        padding-top: 0;
+      }
+    }
+  }
+  @media screen and (min-width: $md) {
+    .two-card {
+      max-width: 60%;
+      margin: 0 auto;
+    }
+  }
+  hr.sec-btm {
+    position: relative;
+    top: 80px;
+    margin: 0 20%;
+    @media screen and (max-width: $md - 1) {
+      top: 40px;
+    }
+  }
+  &.base-footer {
+    background-color: $color-base-footer;
+    color: $color-white;
+    .sec-para {
+      color: $color-white;
+    }
+  }
+  .map-section {
+    padding-top: 80px;
+    > div {
+      height: 25rem;
+      position: relative;
+      overflow: hidden;
+    }
+  }
+  &.counter-pad {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .items-count{
+    background-color: #14add5;
+    height: auto;
+    &__row {
+      display: table;
+      @media screen and (max-width: $md - 1) {
+        padding: 0;
+      }
+      /* margin-top: 50px;
+      margin-bottom: -81px; */
+      &-count,
+      &-text {
+        text-align: center;
+      }
+      &-count {
+        margin-top: 18px;
+        color: #002b5a;
+        @media screen and (max-width: $md - 1) {
+          padding: 0 12px;
+        }
+        @media screen and (max-width: $md - 1) {
+          font-size: 18px;
+        }
+      }
+      &-text {
+        color: #ffffff;
+        @media screen and (max-width: $md - 1) {
+          font-size: 12px;
+        }
+      }
+    }
+    &__col {
+      display: table-cell;
+      border-right: 1px solid;
+      &:last-child {
+        border-right: 0;
+      }
+    }
+  }
+}
+.base-contact {
+  padding-top: 80px;
+}

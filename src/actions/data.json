@@ -1,0 +1,461 @@
+{
+  "pageConfig": {
+    "websiteAppClass": "sai-foods",
+    "title": "Sai Foods"
+  },
+  "navBarList": {
+    "logged_in":true,
+    "nav_theme": "",
+    "logo": {
+      "logoText": "Logo",
+      "logoSrc": "logo2.png",
+      "logoHref": "/",
+      "logoAlt": "Logo Alt",
+      "logoImg": true,
+      "samePage": false
+    },
+    "navList": [
+      {
+        "navText": "Home",
+        "navSrc": "icon",
+        "navHref": "/",
+        "navAlt": "nav Alt",
+        "navClass": "nav-list",
+        "navLiClass": "footer-none",
+        "navSub": false,
+        "samePage": false
+      },
+      {
+        "navText": "About us",
+        "navSrc": "",
+        "navHref": "/?#aboutus",
+        "navAlt": "nav Alt",
+        "navClass": "nav-list",
+        "navLiClass": "footer-none",
+        "navSub": false,
+        "samePage": true
+      },
+      {
+        "navText": "Services",
+        "navSrc": "",
+        "navHref": "/?#services",
+        "navAlt": "nav Alt",
+        "navClass": "nav-list",
+        "navSub": false,
+        "samePage": true
+      },
+      {
+        "navText": "Contact us",
+        "navSrc": "",
+        "navHref": "/?#contactus",
+        "navAlt": "nav Alt",
+        "navClass": "nav-list",
+        "navSub": false,
+        "samePage": true
+      }
+    ]
+  },
+  "homeContent": {
+    "logged_in":true,
+    "header": [
+      {
+        "id": "aboutus",
+        "classItem": "container-fluid-sec",
+        "imgItemShow": "2",
+        "map": false,
+        "h2": "About",
+        "h3": "",
+        "grid": [6, 6],
+        "para": ["Our Chefs offer you perfect cooking, best served dishes with fresh ingredients and old recipes. We have only carefully sourced and seasonal ingredients in our disposal to make rustic dishes. We provide you with daily self-made bread, sourdough pizza, roasted fish-meat-vegetables and many more."],
+        "btn": ["LEARN MORE", "/getBuyingCenterInsight"],
+        "imageCardAble": false,
+        "imageCardHalf": true,
+        "imgLeft": false,
+        "imageCard": [{
+          "href": "/about", "alt": "item alt", "src": "cattering.jpg"
+        }],
+        "hrHide": true
+      }, {
+        "id": "delivery",
+        "classItem": "container-fluid-sec",
+        "imgItemShow": "2",
+        "map": false,
+        "h2": "Delivery",
+        "h3": "",
+        "grid": [6, 6],
+        "para": ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."],
+        "btn": ["LEARN MORE", "/getBuyingCenterInsight"],
+        "imageCardAble": false,
+        "imageCardHalf": true,
+        "imgLeft": true,
+        "imageCard": [{
+          "href": "/about", "alt": "item alt", "src": "tiffin.jpg"
+        }],
+        "hrHide": true
+      }, {
+        "id": "today-speciality",
+        "classItem": "container-fluid-sec-1 today-speciality",
+        "imgItemShow": "2",
+        "map": false,
+        "h2": "TODAY'S SPECIALITY",
+        "h3": "",
+        "grid": [12, 0],
+        "para": ["Chicken with vegetables: mashed potatoes, bean pods, croutons, cranberry jam,rosemary"],
+        "btn": ["LEARN MORE", "/getBuyingCenterInsight"],
+        "imageCardAble": false,
+        "imageCardHalf": false,
+        "imgLeft": true,
+        "imageCard": [{
+          "href": "/about", "alt": "item alt", "src": "mission.jpg"
+        }],
+        "hrHide": true
+      }, {
+        "id": "list-items",
+        "classItem": "",
+        "imgItemShow": "",
+        "map": false,
+        "h2": "",
+        "h3": "",
+        "grid": [12, 12],
+        "para": [],
+        "btn": ["LEARN MORE", "/getBuyingCenterInsight"],
+        "imageCardAble": false,
+        "counter": true,
+        "imageCard": [],
+        "listItemsBol": true,
+        "hrHide": true,
+        "addToCarts": false
+      }, {
+        "id": "services",
+        "classItem": "container-fluid-sec-1 best-service",
+        "imgItemShow": "2",
+        "map": false,
+        "h2": "Best Service ever",
+        "h3": "",
+        "grid": [12, 0],
+        "para": ["Our 3 Michelin Stars ensure that your experience regarding our cuisine will be one that you will not forget."],
+        "btn": ["LEARN MORE", "/getBuyingCenterInsight"],
+        "imageCardAble": false,
+        "imageCardHalf": false,
+        "imgLeft": true,
+        "imageCard": [{
+          "href": "/about", "alt": "item alt", "src": "mission.jpg"
+        }],
+        "hrHide": true
+      }, {
+        "id": "events-card",
+        "classItem": "sec-gray",
+        "imgItemShow": "3",
+        "map": false,
+        "h2": "",
+        "h3": "",
+        "grid": [12, 12],
+        "para": [],
+        "btn": ["LEARN MORE", "/getBuyingCenterInsight"],
+        "imageCardAble": true,
+        "imageCard": [{
+            "href": "/getBuyingCenterInsight",
+            "text": "Birthdays",
+            "alt": "item alt",
+            "src": "birthdays.jpg",
+            "details": "Book a table for two with the best Italian dishes served for the anniversary. Or reserve a bigger one for a huge family to get together one sunny day. Gather your friends together"
+          }, {
+            "href": "/managedMarketingDatabase",
+            "text": "Meetings",
+            "alt": "item alt",
+            "src": "meetings.jpg",
+            "details": "You can also impress your boss by choosing the best place for corporate party with your co-workers. Reserve a spacious room, set the menu, choose the drinks and invite guests."
+          }, {
+            "href": "/competitiveIntelligence",
+            "text": "Weddings",
+            "alt": "item alt",
+            "src": "weddings.jpg",
+            "details": "75 seats for 75 guests are all at your disposal. Organize a party for a huge company and have fun in the restaurant. Show your friends the real world of European cuisine and especially Italian vibes."
+          }
+        ]
+      }, {
+        "id": "tasty-desserts",
+        "classItem": "container-fluid-sec-1 tasty-desserts",
+        "imgItemShow": "2",
+        "map": false,
+        "h2": "Tasty Desserts",
+        "h3": "",
+        "grid": [12, 0],
+        "para": ["Whether you crave sweet, savory, decadent or healthy,",
+          "we have hundreds of top-rated dessert recipes to satisfy your taste buds."],
+        "btn": ["LEARN MORE", "/getBuyingCenterInsight"],
+        "imageCardAble": false,
+        "imageCardHalf": false,
+        "imgLeft": true,
+        "imageCard": [{
+          "href": "/about", "alt": "item alt", "src": "mission.jpg"
+        }],
+        "hrHide": true
+      }, {
+        "id": "contactus",
+        "classItem": "sec-gray contact-details",
+        "imgItemShow": "3",
+        "map": false,
+        "h2": "",
+        "h3": "",
+        "grid": [12, 12],
+        "para": [],
+        "btn": ["LEARN MORE", "/getBuyingCenterInsight"],
+        "imageCardAble": true,
+        "imageCard": [{
+            "href": "/getBuyingCenterInsight",
+            "text": "Events",
+            "alt": "",
+            "src": "",
+            "details": "We put at your disposal our place and staff to celebrate your Birthday, the 10th year anniversary with your colleagues even your Weddings.",
+            "btn": "Find out more"
+          }, {
+            "href": "/managedMarketingDatabase",
+            "text": "Opening Hourssss",
+            "alt": "",
+            "src": "",
+            "details": " ",
+            "detailsHtml": ["<div><p class='title-block__subtitle--reservation'>Monday - Saturday<br><span style='font-size:14px;font-weight:400;'> 12pm - 10:30pm</span></p></div>",
+              "<p class='title-block__subtitle--reservation'>Sunday<br><span style='font-size:14px;font-weight:400;'> 12pm - 9pm</span></p>",
+              "<span style='font-size:14px;font-weight:400;'> Fruits de mer &amp; cold food available 3-5:00pm</span>"
+            ]
+          }, {
+            "href": "/competitiveIntelligence",
+            "text": "Find a table",
+            "alt": "",
+            "src": "",
+            "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+            "detailsHtml": ""
+          }
+        ]
+      }, {
+        "id": "contactus",
+        "classItem": "base-footer contact-us-map",
+        "imgItemShow": "",
+        "map": true,
+        "apiKey": "AIzaSyCtvPRlQ4502OUC-bQVr5mTdcM1W1O5wN8",
+        "h2": "",
+        "h3": "",
+        "grid": [12, 12],
+        "para": [],
+        "btn": ["LEARN MORE", "/getBuyingCenterInsight"],
+        "imageCardAble": true,
+        "imageCard": []
+      }
+    ]
+  },
+  "aboutContent": {
+    "sectionData": [
+      {
+        "id": "",
+        "classItem": "",
+        "imgItemShow": "2",
+        "map": false,
+        "h2": "What we do ?",
+        "h3": "STORY ABOUT US",
+        "grid": [12, 12],
+        "para": ["2Formatics Solutions is a data intelligence and marketing automation company formed by a bunch of professionals who have spent 10+ years in the same vertical and helped customer maximizing ROI.We are customer oriented company and our only focus is customer satisfaction. We serve customers from all verticals across the globe with our data intelligence and marketing automation solutions to achieve maximum ROI by saving time,cost and effort. We have partnered with many brands which are located across the globe,to make sure we deliver the best in the industry."],
+        "btn": [],
+        "imageCardAble": false,
+        "imageCard": [],
+        "hrHide": true
+      }, {
+        "id": "",
+        "classItem": "pt-0 pb-0",
+        "imgItemShow": "2",
+        "map": false,
+        "h2": "",
+        "h3": "",
+        "grid": [12, 12],
+        "para": [],
+        "btn": [],
+        "imageCardAble": false,
+        "imageCard": [],
+        "childHtmlImg": "vision-mission.jpg",
+        "hrHide": true
+      }, {
+        "id": "",
+        "classItem": "",
+        "imgItemShow": "2",
+        "map": false,
+        "h2": "",
+        "h3": "",
+        "grid": [12, 12],
+        "para": [],
+        "btn": [],
+        "imageCardAble": false,
+        "imageCard": [],
+        "childHtml": "<div class='container'><div class='col-lg-12'><div class='row'><h2 style='width:100%'>Vision</h2><p class='pl-5'>Our Vision is to grow along with our Customers as a Family.</p></div><div class='row'><h2 style='width:100%'>Mission</h2><p class='pl-5'>Our Mission is to achieve maximum Customer satisfaction by maximizing ROI.</p></div></div></div>",
+        "hrHide": true
+      }
+    ]
+  },
+  "headerContent": {
+    "slider": [
+      {
+        "carouselItemClass": "buying-center",
+        "title": "Big Pieces, Little Prices",
+        "grid": [12, 0],
+        "lead": "Full Flavor, Full Pockets, Full Life.",
+        "btn": ["LEARN MORE", "/getBuyingCenterInsight"],
+        "ulCircle": true,
+        "ulRes": false,
+        "ulList": [],
+        "ulCenter": "Buying Center",
+        "secDivClass": "",
+        "sliderImg": "hygine-food.jpg"
+      }, {
+        "carouselItemClass": "data-quality",
+        "title": "Welcome To The Restora",
+        "grid": [12, 0],
+        "lead": "People who love to eat are always the best people.",
+        "btn": ["LEARN MORE", "/databaseManagement"],
+        "ulCircle": false,
+        "ulRes": false,
+        "ulList": [],
+        "ulCenter": "",
+        "secDivClass": "",
+        "sliderImg": "better-service.jpg"
+      }, {
+        "carouselItemClass": "web-development",
+        "title": "When you’re here,you’re family",
+        "grid": [12, 0],
+        "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "btn": ["LEARN MORE", "/websiteDevelopment"],
+        "ulCircle": true,
+        "ulRes": true,
+        "ulList": [],
+        "ulCenter": "",
+        "secDivClass": "img-responsive-design",
+        "sliderImg": "garnish.jpg"
+      }, {
+        "carouselItemClass": "web-development",
+        "title": "When you’re here,you’re family",
+        "grid": [12, 0],
+        "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "btn": ["LEARN MORE", "/websiteDevelopment"],
+        "ulCircle": true,
+        "ulRes": true,
+        "ulList": [],
+        "ulCenter": "",
+        "secDivClass": "img-responsive-design",
+        "sliderImg": "yummy.jpg"
+      }
+    ]
+  },
+  "competitiveIntelligence": [
+    {
+      "id": "",
+      "classItem": "h-full",
+      "imgItemShow": "2",
+      "map": false,
+      "h2": "",
+      "h3": "COMPETITIVE INTELLIGENCE",
+      "grid": [12, 12],
+      "para": [],
+      "btn": [],
+      "imageCardAble": false,
+      "imageCard": [],
+      "hrHide": true,
+      "childHtml": "<div class='container'><div class='col-lg-12 pt-3'><div class='row pb-2'><p class='sec-para Roboto'><strong>“Get competitive data based on your competition”</strong><br/>In this competitive world every company focuses on market share, achieving maximum goal and getting best ROI with minimal investment. Any organization who is focusing on achieving maximum market share or want to get recognized in a particular segment should have good amount of customer base.Sometimes it is very difficult to identity the correct target for your business. 2Formatics helps information technology companies to get all sort of competitive intelligence based upon your product and services.Whether your company is into CRM, ERP, IT Security, Video Management, HR Software, Networking etc.We have close to 8,000+ installed sites worldwide with 50M+ technology B2B data.</p></div></div></div>"
+    }
+  ],
+  "getBuyingCenterInsight": [
+    {
+      "id": "",
+      "classItem": "pb-0",
+      "imgItemShow": "2",
+      "map": false,
+      "h2": "",
+      "h3": "GET BUYING CENTER INSIGHT",
+      "grid": [12, 12],
+      "para": ["Getting right target for sales and marketing is the biggest challenge for any organization. Companies end up spending a lot of time, effort and money on getting an idea on who should be the right target for their product and services. 2formatics helps organizations reach right people for right product and services at right time with right values."],
+      "btn": [],
+      "imageCardAble": false,
+      "imageCard": [],
+      "hrHide": true
+    }, {
+      "id": "",
+      "classItem": "pt-4",
+      "imgItemShow": "2",
+      "map": false,
+      "h2": "How we read Business?",
+      "h3": "",
+      "grid": [12, 12],
+      "para": [],
+      "btn": [],
+      "imageCardAble": false,
+      "imageCard": [],
+      "childHtml": "<div class='container'><div class='col-lg-12 pt-3'><div class='row pb-3'><h4 style='width:100%'>Initiator</h4><p class='sec-para Roboto text-left ml-0 w-100'>&emsp;Initiator plays an important role in buying center who initiates the request and requirements. Every company will have initiators it can be salesperson, marketing callers and operators etc.2formatics will provide insights on who is the right initiator for your product and services.</p></div><div class='row pb-3'><h4 style='width:100%'>Decider(Decision Makers)</h4><p class='sec-para Roboto text-left ml-0 w-100'>&emsp;Identifying who is the right decision maker in a company is a challenge. Decision maker in buying center is the ultimate person who will make buying decision. For different departments and teams, decision makers vary. 2formatics provides insights on who will be the right decision makers for your product and services.</p></div><div class='row pb-3'><h4 style='width:100%'>Influencer</h4><p class='sec-para Roboto text-left ml-0 w-100'>&emsp;Influencer is the one who influences the entire buying decision making process, it is very difficult to identify who is the right influencer from a company. Influencers differ from company to company based on employee size, revenue, nature of business etc. 2formatics helps identifying best influencer who can influence decision makers for your product or services.</p></div><div class='row pb-3'><h4 style='width:100%'>Buyer</h4><p class='sec-para Roboto text-left ml-0 w-100'>&emsp;Buyer in buying center is the purchasing, procurement agent who is involved in purchasing process of any product or services once the decision is made, but it is not necessary every purchasing manager or procurement manager is a buyer, it can be person from other departments like controller, finance manager who allocate budget for acquisition. 2formatics helps in identifying who is the right buyer for your product or services.</p></div><div class='row pb-3'><h4 style='width:100%'>User</h4><p class='sec-para Roboto text-left ml-0 w-100'>&emsp;Users here are end users for the product or services once acquired, users directly don't play an important role but act as catalyst in buying process and may play important role during the time of product or services renewal. 2formatics helps in identifying who will be the right end user of your product or services.</p></div><div class='row pb-3'><h4 style='width:100%'>Gatekeeper</h4><p class='sec-para Roboto text-left ml-0 w-100'>&emsp;Gatekeeper can be secretary, office manager, front desk officer etc who controls the communication betweeen the product or service provider and buying center team, it is very hard to get gatekeepers convinced and get directly connected to the person in buying center whom you want to reach out to offer your product or services. 2formatics plays an important role in bypassing the gatekeepers and get you directly to the right person for your offerings.</p></div</div>",
+      "hrHide": true
+    }
+  ],
+  "managedMarketingDatabase": [
+    {
+      "id": "",
+      "classItem": "h-full",
+      "imgItemShow": "2",
+      "map": false,
+      "h2": "",
+      "h3": "MANAGED MARKETING DATABASE SERVICES",
+      "grid": [12, 12],
+      "para": [],
+      "btn": [],
+      "imageCardAble": false,
+      "imageCard": [],
+      "hrHide": true,
+      "childHtml": "<div class='container'><div class='col-lg-12 pt-3'><div class='row pb-3'><p class='sec-para Roboto'><strong>'We are your Marketing Database Company'</strong><br/>Why spend lot of time in evaluating data for your marketing initiatives, investing on resources and increasing maintenance cost. 2Formatics is your virtual marketing manager which will provide all sort of data and marketing services required as per your business requirement. You don’t need to go anywhere else as we will handle your entire marketing process. Whatever data or marketing services are best fit your business we will fulfill your needs.</p></div></div></div>"
+    }
+  ],
+  "digitalMarketing": [
+    {
+      "id": "",
+      "classItem": "h-full",
+      "imgItemShow": "2",
+      "map": false,
+      "h2": "",
+      "h3": "DIGITAL MARKETING SERVICES",
+      "grid": [12, 12],
+      "para": [],
+      "btn": [],
+      "imageCardAble": false,
+      "imageCard": [],
+      "hrHide": true,
+      "childHtml": "<div class='container'><div class='col-lg-12 pt-3'><div class='row pb-2'><p class='sec-para Roboto'>Digital marketing services helps customers to automate the entire marketing process digitally with minimum effort and high returns. 2Formatics helps organizations achieve their marketing goal by providing digital marketing services based on the organizations requirement and budget. We map up multiple solutions to make sure you get the best ROI out of your investment.</p></div></div><div class='col-lg-12 pt-3'><div class='row pb-2'><p class='sec-para Roboto pb-2 w-100 text-left'>Our Digital Marketing Services include:</p><ul class='bullets-list sec-para Roboto text-left m-0'><li>Marketing automation</li><li>Search Engine Optimization</li><li>Pay-Per-Click</li><li>Appointment setting</li><li>Lead Generation</li><li>Influencer Marketing</li></ul></div></div></div>"
+    }
+  ],
+  "databaseManagement": [
+    {
+      "id": "",
+      "classItem": "pt-4",
+      "imgItemShow": "2",
+      "map": false,
+      "h2": "",
+      "h3": "DATABASE MANAGEMENT",
+      "grid": [12, 12],
+      "para": ["Any organization with large amount of data in-house finds it difficult to maintain the entire database.Organizations end up paying lot of money in maintaining data but still does not get the accuracy, Based on nature of database industry, it keeps changing on daily basis, so it is pretty hard to maintain the accuracy. 2Formatics helps organizations managing in-house database."],
+      "btn": [],
+      "imageCardAble": false,
+      "imageCard": [],
+      "childHtml": "<div class='container'><div class='col-lg-12 pt-5'><div class='row pb-3'><h4 style='width:100%'>Data Appending</h4><p class='sec-para Roboto text-left ml-0 w-100'>&emsp;Data appending services is one of our strength with proven track record of providing accurate appended data to our customers. We can append any data field as required by our customers like business email address, phone numbers, social media link etc.</p></div><div class='row pb-3'><h4 style='width:100%'>Data Cleansing</h4><p class='sec-para Roboto text-left ml-0 w-100'>&emsp;Organizations with large amount data generally face problem to get their data cleaned up. Any data which is acquired gets outdated in every 3 months, so it is important for any organization to cleanse their data before they use it. We not only cleanse the entire database but all provide fresh and updated data.</p></div><div class='row pb-3'><h4 style='width:100%'>Data Enhancement</h4><p class='sec-para Roboto text-left ml-0 w-100'>&emsp;Data Enrichment is the one of our accurate and simple step service which we provide to our customers to make sure the existing database is more informative and useful for their sales and marketing strategy.</p></div><div class='row pb-3'><h4 style='width:100%'>Data Maintenance</h4><p class='sec-para Roboto text-left ml-0 w-100'>&emsp;Maintaining a data is one the biggest challenge any organization face, this is one of their pain point which we solve by providing real time data updating process. We have a dedicated team who only works on maintaining the data to make sure the data is up-to-date.</p></div></div></div>",
+      "hrHide": true
+    }
+  ],
+  "websiteDevelopment": [
+    {
+      "id": "",
+      "classItem": "h-full",
+      "imgItemShow": "2",
+      "map": false,
+      "h2": "",
+      "h3": "WEBSITE DEVELOPMENT",
+      "grid": [12, 12],
+      "para": [],
+      "btn": [],
+      "imageCardAble": false,
+      "imageCard": [],
+      "hrHide": true,
+      "childHtml": "<div class='container'><div class='col-lg-12 pt-3'><div class='row pb-2'><p class='sec-para Roboto'>Our long list of services has website development and maintainence as one of the most important features apart from others. A good website of a growing firm is often an indication of its business. Customers are often influenced by the type of website a company owns, we design your website based upon the market trend and current scenario of your business. A proper intuitive website often creates a positive impression upon customers and users using them. A website which is simple yet intuitive with correct and accurate knowledge to customers is what we delve upon.</p></div></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+@import '../../assets/css/variables.scss';
+.navbar {
+  background: transparent;
+  &.navbar-ham-active {
+    .navbar-nav .nav-link {
+      @media (max-width: 991px) {
+        display: block;
+      }  
+    }
+    @media (max-width: 991px) {
+      background-color: $color-white;
+    }
+  }
+  &.nav-scrolled,
+  &.direct-page,
+  &.navbar-ham-active {
+    background: $color-white;
+    .navbar-nav .nav-link {
+      color: $color-nav-link;
+    }
+    .icon-bar {
+      background-color: $color-gray-dark;
+    }
+  }
+  .navbar-brand {
+    & {
+      font-size: 3.6em;
+      padding: 33px 0;
+      color: $color-gray;
+      text-shadow: 3px 3px 2px $color-logo-sh;
+      @media (max-width: 991px) {
+        font-size: 3.0em;
+      }
+    }
+    img {
+      width: 260px;
+      transition: all 0.45s ease-in-out;
+      @media (max-width: $md - 1) {
+        width: 216px;
+        padding: 5px 0;
+      }
+    }
+  }
+  .navbar-nav .nav-link {
+    margin: 0 1.25em;
+    @media (max-width: 991px) {
+      margin: 1.25em;
+      display: none;
+    }
+    padding: 0;
+    display: block;
+    padding-top: .425rem;
+    padding-bottom: .425rem;
+    color: $color-white;
+    border-color: $color-white;
+    &:hover {
+      color: $color-active;
+    }
+    @media (max-width: 991px) {
+      color: $color-nav-link;
+    }
+    &.active {
+      border-bottom: 1px solid $color-active;
+      color: $color-active;
+    }
+  }
+
+  .nav-dropdown .link {
+    margin: 1.667em;
+    padding: 0;
+    transition: color .2s ease-in-out;
+  }
+  .navbar-toggler {
+    color: $color-white;
+    outline: none;
+    @media (max-width: 991px) {
+      color: $color-gray;
+    }
+  }
+  /* &.navbar-dark { */
+    .navbar-toggler {
+      border-width: 0;
+    }
+  /* } */
+}
+.nav-transparent {
+  padding-top: 0px;
+}
+.direct-page.navbar {
+  box-shadow: 0px 0px 5px 0;
+  & + div {
+    padding-top: 91px;
+    @media screen and (max-width: $md - 1) {
+      padding-top: 80px;
+    }
+  }
+}
+.nav-scrolled-top {
+  background: $color-white;
+}
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	display: block;
+	transition: all 0.2s;
+  margin-top: 4px;
+  background-color: $color-white;
+}
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+@media screen and (max-width: $md - 1) {
+  .navbar {
+    padding: 0rem 1rem;
+    .navbar-brand {
+      /* height: 40px; */
+      padding: 10px 0;
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "text": "MENU",
+  "foodTypes": ["MEAT", "SIDES", "PASTA"],
+  "priceSymbol": "$",
+  "items": [
+    {
+      "food": {
+        "foodId": "food_ashlcg6b4ansska87l39xb0dnupz",
+        "label": "gala apple",
+        "nutrients": {
+          "ENERC_KCAL": 57,
+          "PROCNT": 0.25,
+          "FAT": 0.12,
+          "CHOCDF": 13.68
+        },
+        "source": "Generic"
+      },
+      "foods": [
+        {
+          "foodType": "MEAT",
+          "name": "Chicken Breast",
+          "price": "19.50",
+          "id": "fq1"
+        }, {
+          "foodType": "SIDES",
+          "name": "Chicken Breast",
+          "price": "19.50",
+          "id": "fq2"
+        }, {
+          "foodType": "MEAT",
+          "name": "Fresh Grilled Asparagus",
+          "price": "25.00",
+          "id": "fq3"
+        }, {
+          "foodType": "MEAT",
+          "name": "Pork-Stuffed Skins",
+          "price": "25.50",
+          "id": "fq4"
+        }, {
+          "foodType": "MEAT",
+          "name": "Grilled Chicken",
+          "price": "25.49",
+          "id": "fq5"
+        }, {
+          "foodType": "MEAT",
+          "name": "Steak Frites",
+          "price": "25.00",
+          "id": "fq6"
+        }, {
+          "foodType": "SIDES",
+          "name": "Fresh Grilled Asparagus",
+          "price": "25.00",
+          "id": "fq7"
+        }, {
+          "foodType": "SIDES",
+          "name": "Chicken Breast",
+          "price": "19.50",
+          "id": "fq8"
+        }, {
+          "foodType": "SIDES",
+          "name": "Fresh Grilled Asparagus",
+          "price": "25.00",
+          "id": "fq9"
+        }, {
+          "foodType": "SIDES",
+          "name": "Pork-Stuffed Skins",
+          "price": "25.50",
+          "id": "fq10"
+        }, {
+          "foodType": "SIDES",
+          "name": "Grilled Chicken",
+          "price": "25.49",
+          "id": "fq11"
+        }, {
+          "foodType": "SIDES",
+          "name": "Steak Frites",
+          "price": "25.00",
+          "id": "fq12"
+        }, {
+          "foodType": "SIDES",
+          "name": "Steak Frites",
+          "price": "25.00",
+          "id": "fq13"
+        }, {
+          "foodType": "PASTA",
+          "name": "Chicken Breast",
+          "price": "19.50",
+          "id": "fq14"
+        }, {
+          "foodType": "PASTA",
+          "name": "Fresh Grilled Asparagus",
+          "price": "25.00",
+          "id": "fq15"
+        }, {
+          "foodType": "PASTA",
+          "name": "Chicken Breast",
+          "price": "19.50",
+          "id": "fq16"
+        }, {
+          "foodType": "PASTA",
+          "name": "Fresh Grilled Asparagus",
+          "price": "25.00",
+          "id": "fq17"
+        }, {
+          "foodType": "PASTA",
+          "name": "Pork-Stuffed Skins",
+          "price": "25.50",
+          "id": "fq18"
+        }, {
+          "foodType": "PASTA",
+          "name": "Grilled Chicken",
+          "price": "25.49",
+          "id": "fq19"
+        }, {
+          "foodType": "PASTA",
+          "name": "Steak Frites",
+          "price": "25.00",
+          "id": "fq20"
+        }
+      ]
+    }
+  ]
+}

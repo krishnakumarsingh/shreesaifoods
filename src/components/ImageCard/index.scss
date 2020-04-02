@@ -1,0 +1,92 @@
+@import '../../assets/css/variables.scss';
+.card {
+  .overlay-card-img-top {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: $color-white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: transparent;
+    &:hover::before {
+      opacity: 0.5;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: -webkit-linear-gradient(to left, $color-img-card-sh1, $color-img-card-sh2) !important;
+      background: -moz-linear-gradient(to left, $color-img-card-sh1, $color-img-card-sh2) !important;
+      background: -o-linear-gradient(to left, $color-img-card-sh1, $color-img-card-sh2) !important;
+      background: -ms-linear-gradient(to left, $color-img-card-sh1, $color-img-card-sh2) !important;
+      background: linear-gradient(to left, $color-img-card-sh1, $color-img-card-sh2) !important;
+      opacity: 0;
+      -webkit-transition: .2s opacity ease-in-out;
+      transition: .2s opacity ease-in-out;
+    }
+    .text-card {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      bottom: 0%;
+      width: 100%;
+      padding: 5px;
+      text-align: left;
+      background: -webkit-linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
+      background: -moz-linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
+      background: -o-linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
+      background: -ms-linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
+      background: linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
+      -webkit-transition: .2s background ease-in-out;
+      transition: .2s background ease-in-out;
+      font-size: 12px;
+    }
+  }
+  &.normal {
+    background: transparent;
+    border: none;
+    .overlay-card-img-top-nrml {
+      text-align: center;
+      img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+      }
+    }
+    .card-details {
+      text-align: center;
+      color: #999;
+    }
+  }
+  .card-btn {
+    text-align: center;
+    .btn.btn-secondary-outline {
+      padding: 0.75rem 2.1874rem;
+      padding-top: 0.75rem;
+      padding-right: 2.1874rem;
+      padding-bottom: 0.75rem;
+      padding-left: 2.1874rem;
+      font-size: 0.9687rem;
+      line-height: 1.33333;
+      border-radius: 3px;
+      height: auto;
+      margin-top: 25px;
+      border-color: #2d2d2a;
+      color: #37464f;
+    }
+  }
+  > a {
+    &,
+    img {
+      height: 100%;
+    }
+  }
+}

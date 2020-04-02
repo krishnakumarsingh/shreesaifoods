@@ -1,0 +1,49 @@
+/* .form-group {
+  position: relative;
+}
+.form-control {
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+}
+.form-control + label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.6;
+  transition: transform .2s ease-out,color .2s ease-out;
+  transform-origin: 0 100%;
+  transform: translateY(12px);
+  cursor: text;
+}
+.form-control.active + label,
+.form-control:focus + label {
+  top: 0;
+  left: 5px;
+  font-size: 12px;
+  transform: translateY(-14px) scale(.8);
+  color: #0d22d0;
+}
+.fileinputs {
+	position: relative;
+
+  .fakefile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+  }
+
+  input.file {
+    position: relative;
+    text-align: right;
+    -moz-opacity:0 ;
+    opacity: 0;
+    z-index: 2;
+  }
+  .file-show {
+    padding-left: 38px;
+    padding-top: 14px;
+    width: 100%;
+  }
+} */

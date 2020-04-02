@@ -1,0 +1,108 @@
+@import '../../assets/css/variables.scss';
+.contact-us-block {
+  p {
+    color: $color-white;
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+  .form-group {
+    position: relative;
+  }
+  .form-control {
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  @media screen and (max-width: $md - 1) {
+    .form-border {
+      border: 1px solid $color-gray;
+      padding: 10px;
+      margin: 10px;
+    }
+  }
+  .form-control {
+    @media screen and (max-width: $md - 1) {
+      margin-bottom: 15px;
+    }
+    & + label {
+      position: absolute;
+      top: 0px;
+      left: 15px;
+      opacity: 0.6;
+      transition: transform .2s ease-out,color .2s ease-out;
+      transform-origin: 0 100%;
+      transform: translateY(12px);
+      cursor: text;
+    }
+  }
+  textarea.form-control {
+    & + label {
+      left: 0px;
+    }
+    /* &:focus {
+      height: 150px;
+    } */
+  }
+  .btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 0.75rem 2.1875rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    border-radius: 3px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  .form-control {
+    background-color: transparent;
+    color: $color-white;
+    &:focus,
+    &:-internal-autofill-selected {
+      background-color: transparent;
+      color: $color-white;
+    }
+  }
+  .btn {
+    background-color: $color-white;
+  }
+  input.form-control:not([value=""]):not(:focus) {
+    background-color: transparent;
+    color: $color-white;
+  }
+  .form-control.active + label,
+  .form-control:focus + label,
+  input.form-control:not([value=""]):not(:focus) + label,
+  textarea.form-control:not(:empty):not(:focus) + label {
+    top: 0;
+    left: 5px;
+    font-size: 12px;
+    transform: translateY(-14px) scale(.8);
+    color: $color-white;
+  }
+  .fileinputs {
+    position: relative;
+
+    .fakefile {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+      width: 100%;
+    }
+
+    input.file {
+      position: relative;
+      text-align: right;
+      -moz-opacity:0 ;
+      opacity: 0;
+      z-index: 2;
+    }
+    .file-show {
+      padding-left: 38px;
+      padding-top: 14px;
+      width: 100%;
+    }
+  }
+}
